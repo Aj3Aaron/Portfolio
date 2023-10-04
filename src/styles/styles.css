@@ -1,20 +1,35 @@
-  /** Media Queries **/
-  /** Media Queries **/
-  @media only screen and (min-width: 48rem) {
+   /** Media Queries **/
+  @media (max-width: 800px) {
+   
     .menu {
-      grid-template-columns: 10% auto 10%;
+      grid-template-columns: 10% auto 10% !important;
     }
     .menu .contenedor-menu a {
-      font-size: 1.1rem;
+      font-size: 63% !important;
     }
-    .menu .idiomas {
-      display: flex;
-      flex-direction: column;
+
+    .titulo_nav, .titulo_nav-right{
+      padding: 5px !important;
+    }
+
+    .span-avatar{
+      height: auto !important;
+    }
+
+    .photo{
+      /* max-width: 30%; */
+    }
+
+    .div-photo{
+      padding-left: 10%;
+    }
+
+    .fade-in, .profesion{
+      font-size: 80%;
     }
   }
 
   .menu {
-
     justify-content: center;
     margin-top: 2rem;
     padding: 0.5rem;
@@ -25,23 +40,10 @@
     z-index: 11;
     top: 0;
     display: flex;
-    grid-template-columns: 10% auto;
+    /* grid-template-columns: 10% auto; */
   }
-  .menu .foto {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    text-align: center;
-  }
-  .menu .foto img {
-    width: 2.5rem;
-    border-radius: 50%;
-    margin-right: 1.25rem;
-  }
+
   .menu .contenedor-menu {
-    width: 100%;
-    height: 100%;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -58,9 +60,8 @@
   .menu .contenedor-menu a:hover {
     color: #450cc9;
   }
-  .menu .idiomas {
-    display: none;
-    grid-template-columns: repeat(auto-fit, minmax(1.5625rem, 1fr));
+  .menu {
+    
     align-items: center;
     text-align: center;
   }
@@ -72,20 +73,6 @@
   }
   .menu .idiomas img:hover {
     opacity: 0.5;
-  }
-  
-  /** Media Queries **/
-  @media only screen and (min-width: 48rem) {
-    .menu {
-      grid-template-columns: 10% auto 10%;
-    }
-    .menu .contenedor-menu a {
-      font-size: 1.1rem;
-    }
-    .menu .idiomas {
-      display: flex;
-      flex-direction: column;
-    }
   }
 
   .titulo_nav {
@@ -101,7 +88,45 @@
   }
 
   body {
-    background-color: #0e0b16;
+    background-image: url("../img/backgroundMain.png");
+  }
+
+  header {
+    width: 100%;
+  }
+
+  .span-avatar{
+    background: #fff;
+    box-shadow: 0 4px 6px rgba(0,0,0,.3);
+    display: inline-block;
+    margin: 55px 75px 30px;
+    padding: 15px 15px 30px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: all .2s linear;
+    z-index: 0;
+    height: 55%;
+    /* border-width: 10px;
+    border-style:dashed; */
+  }
+
+  .photo{
+    /* border-radius: 20px; */
+    /* width: 40%;
+    height: 50%; */
+    display: block;
+    /* max-width: 200px;
+    max-height: 200px; */
+    width: 150px;
+    height: 170px;
+    vertical-align: middle;
+  }
+
+  .div-photo{
+    align-items: center;
+    display: flex;
+    justify-content: center;
   }
 
   .contenedor-header, .nombre{
@@ -120,10 +145,17 @@
 
   .fade-in, .profesion{
     padding-top: 5%;
-    color: #4717f6;
   }
 
-  .contenedor-AboutMe{
-    background-color: #e7dfdd;
+  .contenedor-AboutMe, .contenedor-Skills, .contenedor-Footer{
+    background-color: #ffffff; 
+    /* e7dfdd */
+  }
+
+  .contenedor-Projects, .contenedor-AboutMe, .contenedor-Skills, .contenedor-Certifications{
     padding: 20%;
+  }
+
+  .h1-Projects, .fade-in, .profesion, .h1-Certifications{
+    color: #ffffff;
   }

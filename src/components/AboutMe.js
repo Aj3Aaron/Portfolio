@@ -1,7 +1,3 @@
-
-import 'bootstrap/dist/css/bootstrap.min.css';
-import '../styles/styles.css';
-
 function AboutMe(){
     return(
         <main className='contenedor-header contenedor-AboutMe'>

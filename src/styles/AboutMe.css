@@ -7,6 +7,14 @@
     height: 1000px;
 }
 
+@media (max-width: 800px) {
+    .div-AboutMe{
+        width: 300px;
+        height: 350px;
+    }
+  
+  }
+
 
 /* Typewriter.css */
 

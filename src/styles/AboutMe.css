@@ -1,0 +1,46 @@
+.div-AboutMe{
+    padding: 10%;
+    background-color: black;
+    border-radius: 30px;
+    color: #ffffff;
+    width: 1000px;
+    height: 1000px;
+}
+
+
+/* Typewriter.css */
+
+.terminal {
+    background-color: #000;
+    color: #00FF00; /* Cambia el color del texto a tu gusto */
+    font-family: 'Courier New', monospace;
+    padding: 10px;
+    white-space: pre-wrap; /* Permite el salto de línea */
+    position: relative; /* Añade una posición relativa para el cursor */
+  }
+  
+  /* Efecto de máquina de escribir */
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  .terminal span {
+    overflow: hidden;
+    animation: typing 3s steps(40, end);
+    position: relative; /* Añade una posición relativa al texto */
+  }
+  
+  /* Estilo del cursor */
+  .cursor {
+    position: absolute; /* Posición absoluta para el cursor */
+    width: 2px; /* Ancho del cursor */
+    height: 1em; /* Altura del cursor */
+    background-color: #00FF00; /* Color del cursor */
+    animation: blink 1s infinite step-start; /* Animación del cursor */
+    right: 0; /* Coloca el cursor a la derecha del texto escrito */
+  }

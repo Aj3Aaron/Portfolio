@@ -148,14 +148,18 @@
   }
 
   .contenedor-AboutMe, .contenedor-Skills, .contenedor-Footer{
-    background-color: #ffffff; 
-    /* e7dfdd */
+    background-color: #ffffff;
   }
 
   .contenedor-Projects, .contenedor-AboutMe, .contenedor-Skills, .contenedor-Certifications{
-    padding: 20%;
+    padding: 5% 20% 10% 20%;
   }
 
   .h1-Projects, .fade-in, .profesion, .h1-Certifications{
     color: #ffffff;
+  }
+
+  .h1-title {
+    text-align: center;
+    padding-bottom: 5%;
   }

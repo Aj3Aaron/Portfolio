@@ -1,17 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.2c71c76c.css",
-    "main.js": "/static/js/main.e4fd0ffb.js",
+    "main.css": "/static/css/main.55b454b2.css",
+    "main.js": "/static/js/main.1acab73b.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/ejemplo_portafolio.png": "/static/media/ejemplo_portafolio.1e526d8221b32c2aca3f.png",
     "static/media/FotoSexy.jpg": "/static/media/FotoSexy.b8bb628b87aa189052f1.jpg",
+    "static/media/home_tuGruero.png": "/static/media/home_tuGruero.9f4408cd0a2c19f5fe8e.png",
     "static/media/backgroundMain.png": "/static/media/backgroundMain.a056fea33501c6398789.png",
+    "static/media/bot_cok.png": "/static/media/bot_cok.c392e12d6c8ba715bce4.png",
+    "static/media/CambioDolar.png": "/static/media/CambioDolar.fecd39bd248913152314.png",
+    "static/media/HTML.png": "/static/media/HTML.23b4e0ae4e2a418c09fa.png",
+    "static/media/CSS.png": "/static/media/CSS.b694fed360b8f7ffa066.png",
     "index.html": "/index.html",
-    "main.2c71c76c.css.map": "/static/css/main.2c71c76c.css.map",
-    "main.e4fd0ffb.js.map": "/static/js/main.e4fd0ffb.js.map",
+    "main.55b454b2.css.map": "/static/css/main.55b454b2.css.map",
+    "main.1acab73b.js.map": "/static/js/main.1acab73b.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2c71c76c.css",
-    "static/js/main.e4fd0ffb.js"
+    "static/css/main.55b454b2.css",
+    "static/js/main.1acab73b.js"
   ]
 }

@@ -4,7 +4,7 @@ import Typewriter from '../components/Typewriter'
 function AboutMe() {
   return (
 
-    <main className='App contenedor-header contenedor-AboutMe'>
+    <section className='App contenedor-header contenedor-AboutMe'>
             <h1 className="h1-title">Sobre mí</h1>
             <div className='div-AboutMe'>
                 <Typewriter 
@@ -15,7 +15,7 @@ function AboutMe() {
                     desarrollo móvil multiplataforma y web." 
                 />
             </div>
-        </main>
+        </section>
   );
 }
 

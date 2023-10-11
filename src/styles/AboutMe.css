@@ -3,8 +3,8 @@
     background-color: black;
     border-radius: 30px;
     color: #ffffff;
-    width: 1000px;
-    height: 1000px;
+    width: 55rem;
+    height: 20rem;
 }
 
 @media (max-width: 800px) {

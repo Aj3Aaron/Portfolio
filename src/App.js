@@ -1,6 +1,6 @@
 import Header from "./sections/Header";
 import AboutMe from "./sections/AboutMe";
-import Nav from "./sections/nav";
+import Nav from "./components/nav";
 import Projects from "./sections/Projects";
 import Skills from "./sections/Skills";
 import Certifications from "./sections/Certifications";

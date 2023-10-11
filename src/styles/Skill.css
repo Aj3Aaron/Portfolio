@@ -1,0 +1,16 @@
+.img-skill{
+    width: 50px;
+}
+
+.div-skills{
+    padding-top: 10px;
+    display: -webkit-box;
+}
+
+.component-skill{
+    margin: 2px;
+}
+
+.h1-skills{
+    text-align: center;
+}

@@ -1,23 +1,31 @@
 {
   "files": {
-    "main.css": "/static/css/main.55b454b2.css",
-    "main.js": "/static/js/main.1acab73b.js",
+    "main.css": "/static/css/main.73fb7463.css",
+    "main.js": "/static/js/main.2f9a23a4.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/ejemplo_portafolio.png": "/static/media/ejemplo_portafolio.1e526d8221b32c2aca3f.png",
     "static/media/FotoSexy.jpg": "/static/media/FotoSexy.b8bb628b87aa189052f1.jpg",
+    "static/media/python.png": "/static/media/python.11f19e28ea543eef25ae.png",
     "static/media/home_tuGruero.png": "/static/media/home_tuGruero.9f4408cd0a2c19f5fe8e.png",
     "static/media/backgroundMain.png": "/static/media/backgroundMain.a056fea33501c6398789.png",
+    "static/media/wordpress.png": "/static/media/wordpress.86b437ed358e803fa11a.png",
     "static/media/bot_cok.png": "/static/media/bot_cok.c392e12d6c8ba715bce4.png",
+    "static/media/react.png": "/static/media/react.92afcd3b68d27811d2b9.png",
     "static/media/CambioDolar.png": "/static/media/CambioDolar.fecd39bd248913152314.png",
+    "static/media/sql.png": "/static/media/sql.622ffe84315776cace80.png",
+    "static/media/bootstrap.png": "/static/media/bootstrap.3f91edb7f6045c3c3192.png",
+    "static/media/php.png": "/static/media/php.d73a608ce78206777beb.png",
     "static/media/HTML.png": "/static/media/HTML.23b4e0ae4e2a418c09fa.png",
+    "static/media/downloadCV.png": "/static/media/downloadCV.d76c0e90fef9e1b03e0b.png",
+    "static/media/android.png": "/static/media/android.116980b977253d659d80.png",
     "static/media/CSS.png": "/static/media/CSS.b694fed360b8f7ffa066.png",
     "index.html": "/index.html",
-    "main.55b454b2.css.map": "/static/css/main.55b454b2.css.map",
-    "main.1acab73b.js.map": "/static/js/main.1acab73b.js.map",
+    "main.73fb7463.css.map": "/static/css/main.73fb7463.css.map",
+    "main.2f9a23a4.js.map": "/static/js/main.2f9a23a4.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.55b454b2.css",
-    "static/js/main.1acab73b.js"
+    "static/css/main.73fb7463.css",
+    "static/js/main.2f9a23a4.js"
   ]
 }

@@ -5,7 +5,7 @@ function AboutMe() {
   return (
 
     <section className='App contenedor-header contenedor-AboutMe'>
-            <h1 className="h1-title">Sobre mí</h1>
+            <h1 className="h1-AboutMe">Sobre mí</h1>
             <div className='div-AboutMe'>
                 <Typewriter 
                     text="Soy desarrollador web Full Stack, manejando

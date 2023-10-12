@@ -1,10 +1,13 @@
 .img-skill{
-    width: 50px;
+    width: 100px;
 }
 
 .div-skills{
-    padding-top: 10px;
-    display: -webkit-box;
+    padding-top: 8%;
+    /* display: -webkit-box; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Divide en dos columnas de igual ancho */
+    gap: 10px; /* Espacio entre columnas */
 }
 
 .component-skill{
@@ -14,3 +17,4 @@
 .h1-skills{
     text-align: center;
 }
+

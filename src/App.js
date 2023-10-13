@@ -24,6 +24,9 @@ function App () {
             <Skills />
             <Certifications />
             <Footer />
+            <div className='end-footer'>
+                <a className='a-end-footer'>Aaron Hidalgo 2023</a>
+            </div>
             <DownloadCV />
         </>
     );

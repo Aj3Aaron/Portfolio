@@ -164,3 +164,14 @@
     text-align: center;
     padding-bottom: 5%;
   }
+
+  .end-footer{
+    background-color: #acacac;
+  }
+  
+  .a-end-footer{
+    display: grid;
+    text-align: center;
+    color: black;
+    text-decoration-line: none;
+  }

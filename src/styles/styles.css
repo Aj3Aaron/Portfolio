@@ -164,29 +164,3 @@
     text-align: center;
     padding-bottom: 5%;
   }
-
-  #icon-container {
-    position: fixed;
-    bottom: 50px; /* Ajusta la distancia desde la parte inferior según tus necesidades */
-    right: 20px; /* Ajusta la distancia desde la derecha según tus necesidades */
-    z-index: 999; /* Ajusta el valor del índice z para que esté por encima de otros elementos si es necesario */
-  }
-
-  .icon-container{
-    
-    opacity: 0;
-    transition: opacity 1s;
-
-  }
-
-  .img-downloadCV{
-    width: 100px;
-  }
-
-  .visible {
-    opacity: 1;
-  }
-  
-  .hidden {
-    opacity: 0;
-  }

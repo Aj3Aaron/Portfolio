@@ -1,8 +1,12 @@
+import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
+
 function Footer(){
     return(
-        <main className='contenedor-header contenedor-Footer'>
+        <section className='contenedor-header contenedor-Footer'>
             <h1 className="h1-footer">Footer</h1>
-        </main>
+        </section>
     )
 }
 

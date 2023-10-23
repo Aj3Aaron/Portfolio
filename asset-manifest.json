@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.acc00421.css",
-    "main.js": "/static/js/main.1edc15c8.js",
+    "main.css": "/static/css/main.2932fb91.css",
+    "main.js": "/static/js/main.303ad952.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/CV_Aaron_Hidalgo.pdf": "/static/media/CV_Aaron_Hidalgo.89955dba42789e036391.pdf",
     "static/media/terminal.png": "/static/media/terminal.d3c3d94a89e8172e62ef.png",
@@ -9,6 +9,7 @@
     "static/media/html-css.png": "/static/media/html-css.56ed729dbdde6434200c.png",
     "static/media/php.png": "/static/media/php.d73a608ce78206777beb.png",
     "static/media/ejemplo_portafolio.png": "/static/media/ejemplo_portafolio.1e526d8221b32c2aca3f.png",
+    "static/media/cambioDolar.jpg": "/static/media/cambioDolar.4b07b08bc72e9ce95b82.jpg",
     "static/media/FotoSexy.jpg": "/static/media/FotoSexy.b8bb628b87aa189052f1.jpg",
     "static/media/python.png": "/static/media/python.11f19e28ea543eef25ae.png",
     "static/media/home_tuGruero.png": "/static/media/home_tuGruero.9f4408cd0a2c19f5fe8e.png",
@@ -23,12 +24,12 @@
     "static/media/android.png": "/static/media/android.116980b977253d659d80.png",
     "static/media/CSS.png": "/static/media/CSS.b694fed360b8f7ffa066.png",
     "index.html": "/index.html",
-    "main.acc00421.css.map": "/static/css/main.acc00421.css.map",
-    "main.1edc15c8.js.map": "/static/js/main.1edc15c8.js.map",
+    "main.2932fb91.css.map": "/static/css/main.2932fb91.css.map",
+    "main.303ad952.js.map": "/static/js/main.303ad952.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.acc00421.css",
-    "static/js/main.1edc15c8.js"
+    "static/css/main.2932fb91.css",
+    "static/js/main.303ad952.js"
   ]
 }

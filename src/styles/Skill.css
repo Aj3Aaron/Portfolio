@@ -4,8 +4,8 @@
 
 .div-skills{
     padding-top: 8%;
-    /* display: -webkit-box; */
-    display: grid;
+    display: -webkit-box;
+    /* display: grid; */
     grid-template-columns: repeat(3, 1fr); /* Divide en dos columnas de igual ancho */
     gap: 10px; /* Espacio entre columnas */
 }
@@ -18,3 +18,13 @@
     text-align: center;
 }
 
+@media (max-width: 800px) {
+    .div-skills{
+        padding-top: 8%;
+        display: -webkit-box;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* Divide en dos columnas de igual ancho */
+        gap: 10px; /* Espacio entre columnas */
+    }
+     
+}

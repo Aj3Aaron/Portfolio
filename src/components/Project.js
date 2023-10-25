@@ -1,12 +1,14 @@
-import React, { useState, useEffect  } from 'react';
+import React, { useState, useEffect } from 'react';
 import Modal from 'react-modal';
 import { CSSTransition } from 'react-transition-group';
-
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faTimes } from '@fortawesome/free-solid-svg-icons';
 
 import "../styles/Project.css";
 import '../styles/Modal.css';
+
 
 Modal.setAppElement('#root');
 
@@ -18,28 +20,29 @@ function Project(props){
     const [style, setStyle] = useState('span-component');
 
     function display_menu(display){
-        // Acceder al elemento con la clase .menu
         const menuElement = document.querySelector('.menu');
-        
-        // Hacer algo con el elemento, por ejemplo, ocultarlo
         if (menuElement) {
           menuElement.style.display = display;
         }
+    }
+
+    function scroll(action){
+        document.body.style.overflow = action;
     }
 
     const openModal = () => {
         setModalIsOpen(true);
         setStyle('project-open');
         display_menu('none');
+        scroll('hidden');
     };
 
     const closeModal = () => {
         setModalIsOpen(false);
         setStyle('span-component');
         display_menu('flex');
+        scroll('auto');
     };
-
-
 
     return(
         <div>
@@ -58,12 +61,15 @@ function Project(props){
                 unmountOnExit
             >
 
+                
+
                 <Modal
                     isOpen={modalIsOpen}
                     onRequestClose={closeModal}
                     contentLabel="Ejemplo de Modal"
                 >
                     <div className='div-content-modal'>
+                        
                         <Carousel>
                             <div>
                                 <img className="photo-modal" src={urlImg} alt="Photo" />
@@ -75,8 +81,10 @@ function Project(props){
                                 <img className="photo-modal" src={urlImg} alt="Photo" />
                             </div>
                         </Carousel>
+                        <div>
+                            <span onClick={closeModal} className='modal-close'><FontAwesomeIcon  icon={faTimes} /></span>
+                        </div>
                     </div>
-                    <button onClick={closeModal}>Cerrar Modal</button>
                 </Modal>
             </CSSTransition>
         </div>

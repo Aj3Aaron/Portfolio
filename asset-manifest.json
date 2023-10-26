@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ed7cb172.css",
-    "main.js": "/static/js/main.303ad952.js",
+    "main.css": "/static/css/main.d6bc4126.css",
+    "main.js": "/static/js/main.7ce85ff3.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/CV_Aaron_Hidalgo.pdf": "/static/media/CV_Aaron_Hidalgo.89955dba42789e036391.pdf",
     "static/media/terminal.png": "/static/media/terminal.d3c3d94a89e8172e62ef.png",
@@ -24,12 +24,12 @@
     "static/media/android.png": "/static/media/android.116980b977253d659d80.png",
     "static/media/CSS.png": "/static/media/CSS.b694fed360b8f7ffa066.png",
     "index.html": "/index.html",
-    "main.ed7cb172.css.map": "/static/css/main.ed7cb172.css.map",
-    "main.303ad952.js.map": "/static/js/main.303ad952.js.map",
+    "main.d6bc4126.css.map": "/static/css/main.d6bc4126.css.map",
+    "main.7ce85ff3.js.map": "/static/js/main.7ce85ff3.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ed7cb172.css",
-    "static/js/main.303ad952.js"
+    "static/css/main.d6bc4126.css",
+    "static/js/main.7ce85ff3.js"
   ]
 }

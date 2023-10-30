@@ -4,7 +4,7 @@ import "../styles/Skill.css";
 
 function Skills(){
     return(
-        <section className='contenedor-header contenedor-Skills'>
+        <section id='conocimientos' className='contenedor-header contenedor-Skills'>
             <h1 className='h1-skills'>Habilidades tecnológicas</h1>
             <div className="div-skills">
                 <Skill urlImg={ require ('../img/HTML.png') } />

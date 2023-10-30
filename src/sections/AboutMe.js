@@ -8,7 +8,7 @@ function AboutMe() {
             <h1 className="h1-AboutMe">Sobre mí</h1>
             <div className='div-AboutMe'>
                 <Typewriter 
-                    text="Soy desarrollador web Full Stack, manejando
+                    text="¡Hola!... Soy desarrollador web Full Stack, manejando
                     lenguajes de programación como PHP,
                     JavaScript, HTML, CSS y python, con más de
                     1 año de experiencia en el área laboral del

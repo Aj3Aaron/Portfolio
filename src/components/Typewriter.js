@@ -13,7 +13,7 @@ const Typewriter = ({ text }) => {
       } else {
         clearInterval(interval);
       }
-    }, 40); // Ajusta la velocidad de escritura aquí
+    }, 100); // Ajusta la velocidad de escritura aquí
 
     return () => {
       clearInterval(interval);

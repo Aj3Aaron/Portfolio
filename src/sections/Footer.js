@@ -6,11 +6,11 @@ import "../styles/Footer.css";
 
 function Footer() {
   return (
-    <section className='contenedor-header contenedor-Footer'>
+    <section id='contacto' className='contenedor-header contenedor-Footer'>
         <div className='div-footer'>
-            <Icon nameClass='linkedin' iconName={faLinkedinIn} />
-            <Icon nameClass='github' iconName={faGithub} />
-            <Icon nameClass='twitter' iconName={faTwitter} />
+            <Icon url="https://www.linkedin.com/in/aaron-jose-hidalgo-s-6033b8242/" nameClass='linkedin' iconName={faLinkedinIn} />
+            <Icon url="https://github.com/Aj3Aaron" nameClass='github' iconName={faGithub} />
+            <Icon url="https://twitter.com/Aaron_Aj3" nameClass='twitter' iconName={faTwitter} />
         </div>
     </section>
   );

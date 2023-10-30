@@ -16,7 +16,7 @@ function Projects(){
    const skillCambioDolar = [require('../img/CSS.png'), require('../img/react.png'), require('../img/javaScript.png'), require('../img/android.png')]
 
     return(
-        <section className='contenedor-header contenedor-Projects'>
+        <section id="proyectos" className='contenedor-header contenedor-Projects'>
             <h1 className='h1-Projects'>Proyectos realizados</h1>
             <div className="div-projects">
                 <Project urlImg={ require ('../img/ejemplo_portafolio.png')} skills={skillPage} urlImg1={ require ('../img/cambioDolar.jpg') } linkProject='https://github.com/Aj3Aaron/Portfolio' projectTitle="Portafolio en React." projectDescription='Portafolio en React que puede ser utilizado, por ejemplo, por otros usuarios de GitHub. El portafolio incluye secciones separadas (Acerca de, Proyectos, Habilidades, Experiencia).' />

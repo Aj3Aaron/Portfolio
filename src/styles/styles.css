@@ -12,10 +12,6 @@
       padding: 5px !important;
     }
 
-    .span-avatar{
-      height: auto !important;
-    }
-
     .div-photo{
       padding-left: 10%;
     }
@@ -23,6 +19,14 @@
     .fade-in, .profesion{
       font-size: 80%;
     }
+
+    .div-photo{
+      margin-top: 10%;
+    }
+  }
+
+  *{
+      /* font-family: "Monospace", monospace; */
   }
 
   .menu {
@@ -54,7 +58,7 @@
     text-transform: uppercase;
   }
   .menu .contenedor-menu a:hover {
-    color: #450cc9;
+    color: #00FF00;
   }
   .menu {
     
@@ -93,30 +97,16 @@
 
   .span-avatar{
     background: #fff;
-    box-shadow: 0 4px 6px rgba(0,0,0,.3);
-    display: inline-block;
-    margin: 55px 75px 30px;
-    padding: 15px 15px 30px;
-    position: relative;
-    text-align: center;
-    text-decoration: none;
-    transition: all .2s linear;
-    z-index: 0;
-    height: 55%;
-    /* border-width: 10px;
-    border-style:dashed; */
+    position: absolute;
+    border-radius: 10%;
+    
   }
+  
 
   .photo{
-    /* border-radius: 20px; */
-    /* width: 40%;
-    height: 50%; */
-    display: block;
-    /* max-width: 200px;
-    max-height: 200px; */
-    width: 150px;
-    height: 170px;
-    /* vertical-align: middle; */
+    width: 188px;
+    height: 240px;
+    border-radius: 10%;
   }
 
   .div-photo{
@@ -154,6 +144,7 @@
   .h1-Projects, .fade-in, .profesion, .h1-Certifications{
     padding-top: 10%;
     color: #ffffff;
+    padding-bottom: 10%;
   }
 
   .h1-AboutMe, .fade-in, .h1-footer, .h1-skills{
@@ -175,3 +166,52 @@
     color: black;
     text-decoration-line: none;
   }
+
+
+
+.contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tarjeta{
+    height: 250px;
+    width: 200px;
+    background-color: #101010;
+    border-radius: 10%;
+    box-shadow: 16px 14px 20px #0000008c;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tarjeta::before{
+    content: "";
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    background-image: conic-gradient(#00FF00 20deg, transparent 120deg);
+    animation: rotar 2s linear infinite;
+}
+
+@keyframes rotar{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(-360deg);
+    }
+}
+
+.tarjeta::after{
+    content: "";
+    position: absolute;
+    height: 240px;
+    width: 190px;
+    background-color: #ffffff00;
+    border-radius: 10%;
+    box-shadow: inset 16px 14px 20px #0000008c;;
+}

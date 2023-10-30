@@ -5,7 +5,7 @@ import Projects from "./sections/Projects";
 import Skills from "./sections/Skills";
 import Certifications from "./sections/Certifications";
 import Footer from "./sections/Footer";
-import DownloadCV from "./components/DownloadCv";
+// import DownloadCV from "./components/DownloadCv";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles/styles.css';
@@ -27,7 +27,7 @@ function App () {
             <div className='end-footer'>
                 <a className='a-end-footer'>Aaron Hidalgo 2023</a>
             </div>
-            <DownloadCV />
+            
         </>
     );
     

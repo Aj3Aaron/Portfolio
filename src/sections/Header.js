@@ -7,7 +7,7 @@ function Header(){
                 <div class="contenedor">
                     <div class="tarjeta">
                     <span className="span-avatar">
-                        <img className="photo" src={Photo} alt="Photo" />
+                        <img className="photo" src={Photo} alt="aaron hidalgo" />
                     </span>
                     </div>
                 </div>

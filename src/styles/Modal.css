@@ -69,7 +69,7 @@
 }
 
 .control-dots {
-    margin: 0px !important;
+    margin-bottom: 0px !important;
     
 }
 
@@ -178,6 +178,10 @@
 
     .icon-link{
         font-size: 50%;
+    }
+
+    .control-dots {
+        margin: 0px !important;
     }
 
 }

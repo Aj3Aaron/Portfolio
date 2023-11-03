@@ -6,7 +6,7 @@ function Projects(){
 
     const tuGruero_description = {
         tuGruero_description_1: "1 año de experiencia desarrollando para ",
-        tuGruero_description_2:" manejando base de datos con SQL, utilizando lenguajes como PHP, JavaScript, HTML y CSS. Ademas de mantenimiento landing page con WordPress.",
+        tuGruero_description_2:" manejando base de datos con SQL, utilizando lenguajes como PHP, JavaScript, HTML y CSS. Además de mantenimiento landing page con WordPress; se implementó API de google maps y pasarela de pago con stripe.",
         tuGrueroLink: "https://tugruero.io/"
     };
 
@@ -22,9 +22,9 @@ function Projects(){
 
                 <Project
                     skills={skillPage}
-                    urlImg={ require ('../img/ejemplo_portafolio.png')}
-                    urlImg1={ require ('../img/ejemplo_portafolio.png') }
-                    urlImg2={ require ('../img/ejemplo_portafolio.png') }
+                    urlImg={ require ('../img/portafolio1.png')}
+                    urlImg1={ require ('../img/portafolio2.png') }
+                    urlImg2={ require ('../img/portafolio3.png') }
                     linkProject='https://github.com/Aj3Aaron/Portfolio'
                     projectTitle="Portafolio en React."
                     projectDescription='Portafolio en React que puede ser utilizado, por ejemplo, por otros usuarios de GitHub. El portafolio incluye secciones separadas (Acerca de, Proyectos, Habilidades, Experiencia).'    
@@ -37,7 +37,7 @@ function Projects(){
                     skills={skillBot}
                     linkProject='https://github.com/hidalgoabraham/aj-cok-farming-bot'
                     projectTitle="Bot Clash of Kings."
-                    projectDescription='Bot de reconocimiento de patrones basado en imagenes, fue desarrollado en python con librerias como OpenCv, OCR y Adb para conectarse a un dispositivo android.'
+                    projectDescription='Bot de reconocimiento de patrones basado en imágenes, fue desarrollado en python con librerías como OpenCv, OCR y Adb para conectarse a un dispositivo Android.'
 
                 />
 
@@ -59,7 +59,7 @@ function Projects(){
                     urlImg2={ require ('../img/cambioDolar3.png') }
                     linkProject='https://github.com/Aj3Aaron/Cambio-dolar'
                     projectTitle="App mobile multiplataforma."
-                    projectDescription='App multiplataforma desarrollada con React Native para saber en tiempo real el tipo de cambio del Dolar en Venezuela con tasas de distintas entidades.'
+                    projectDescription='App multiplataforma desarrollada con React Native para saber en tiempo real el tipo de cambio del Dólar en Venezuela con tasas de distintas entidades.'
                 />
 
             </div>

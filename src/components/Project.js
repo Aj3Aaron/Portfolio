@@ -50,7 +50,7 @@ function Project(props){
         <div>
             <div className="div-component">
                 <span className={style} onClick={openModal}>
-                    <img className="photo-component" src={urlImg} alt="Photo" />
+                    <img className="photo-component" src={urlImg} alt="aaron hidalgo" />
                     <p> {projectTitle} </p>
                 </span>
             </div>
@@ -81,7 +81,7 @@ function Project(props){
                                         <p className='icon-green'></p>
                                     </div>
                                 </div>
-                                <img className="photo-modal" src={urlImg} alt="Photo" />
+                                <img className="photo-modal" src={urlImg} alt="aaron hidalgo" />
                             </div>
                             <div className='div-photo-modal'>
                                 <div className='div-background-icons'>
@@ -91,7 +91,7 @@ function Project(props){
                                         <p className='icon-green'></p>
                                     </div>
                                 </div>
-                                <img className="photo-modal" src={urlImg1} alt="Photo" />
+                                <img className="photo-modal" src={urlImg1} alt="aaron hidalgo" />
                             </div>
                             <div className='div-photo-modal'>
                                 <div className='div-background-icons'>
@@ -101,7 +101,7 @@ function Project(props){
                                         <p className='icon-green'></p>
                                     </div>
                                 </div>
-                                <img className="photo-modal" src={urlImg2} alt="Photo" />
+                                <img className="photo-modal" src={urlImg2} alt="aaron hidalgo" />
                             </div>
                         </Carousel>
                         <div>

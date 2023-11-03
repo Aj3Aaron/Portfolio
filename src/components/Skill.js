@@ -8,7 +8,7 @@ function Skill(props){
 
     return(
         <div className="component-skill">
-            <img className="img-skill" src={urlImg} alt="Photo" />
+            <img className="img-skill" src={urlImg} alt="aaron hidalgo" />
         </div>
     )
 }

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.21db8dd7.css",
-    "main.js": "/static/js/main.b496190a.js",
+    "main.js": "/static/js/main.b7a50f59.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/tuGruero3.png": "/static/media/tuGruero3.ff62d56d75383fb33ff5.png",
     "static/media/CV_Aaron_Hidalgo.pdf": "/static/media/CV_Aaron_Hidalgo.89955dba42789e036391.pdf",
@@ -32,11 +32,11 @@
     "static/media/CSS.png": "/static/media/CSS.b694fed360b8f7ffa066.png",
     "index.html": "/index.html",
     "main.21db8dd7.css.map": "/static/css/main.21db8dd7.css.map",
-    "main.b496190a.js.map": "/static/js/main.b496190a.js.map",
+    "main.b7a50f59.js.map": "/static/js/main.b7a50f59.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.21db8dd7.css",
-    "static/js/main.b496190a.js"
+    "static/js/main.b7a50f59.js"
   ]
 }

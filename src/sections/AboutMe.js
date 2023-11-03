@@ -10,7 +10,7 @@ function AboutMe() {
                 <Typewriter 
                     text="¡Hola!... Soy Desarrollador web Full Stack, manejando
                     lenguajes de programación como PHP,
-                    JavaScript, HTML, CSS y python, con más de
+                    JavaScript, HTML, CSS y Python, con más de
                     1 año de experiencia en el área laboral del
                     desarrollo móvil multiplataforma y web." 
                 />

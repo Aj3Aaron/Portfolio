@@ -2,7 +2,7 @@ import Photo from "../img/7.png";
 
 function Header(){
     return(
-        <header className='header row'>
+        <header id="header" className='header row'>
             <div className="div-photo col-sm">
                 <div class="contenedor">
                     <div class="tarjeta">

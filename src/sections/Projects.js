@@ -19,10 +19,49 @@ function Projects(){
         <section id="proyectos" className='contenedor-header contenedor-Projects'>
             <h1 className='h1-Projects'>Proyectos realizados</h1>
             <div className="div-projects">
-                <Project urlImg={ require ('../img/ejemplo_portafolio.png')} skills={skillPage} urlImg1={ require ('../img/cambioDolar.jpg') } linkProject='https://github.com/Aj3Aaron/Portfolio' projectTitle="Portafolio en React." projectDescription='Portafolio en React que puede ser utilizado, por ejemplo, por otros usuarios de GitHub. El portafolio incluye secciones separadas (Acerca de, Proyectos, Habilidades, Experiencia).' />
-                <Project urlImg={ require ('../img/bot_cok.png')} skills={skillBot} urlImg1={ require('../img/cambioDolar.jpg') } linkProject='https://github.com/hidalgoabraham/aj-cok-farming-bot' projectTitle="Bot Clash of Kings." projectDescription='Bot de reconocimiento de patrones basado en imagenes, fue desarrollado en python con librerias como OpenCv, OCR y Adb para conectarse a un dispositivo android.' />
-                <Project urlImg={ require ('../img/home_tuGruero.png')} skills={skillTuGruero} urlImg1={ require('../img/cambioDolar.jpg') } linkProject={tuGruero_description.tuGrueroLink} tuGruero={true}  projectTitle="Tu Gruero." projectDescription={tuGruero_description} />
-                <Project urlImg={ require ('../img/CambioDolar.png')} skills={skillCambioDolar} urlImg1={ require('../img/cambioDolar.jpg') } linkProject='https://github.com/Aj3Aaron/Cambio-dolar' projectTitle="App mobile multiplataforma." projectDescription='App multiplataforma desarrollada con React Native para saber en tiempo real el tipo de cambio del Dolar en Venezuela con tasas de distintas entidades.' />
+
+                <Project
+                    skills={skillPage}
+                    urlImg={ require ('../img/ejemplo_portafolio.png')}
+                    urlImg1={ require ('../img/ejemplo_portafolio.png') }
+                    urlImg2={ require ('../img/ejemplo_portafolio.png') }
+                    linkProject='https://github.com/Aj3Aaron/Portfolio'
+                    projectTitle="Portafolio en React."
+                    projectDescription='Portafolio en React que puede ser utilizado, por ejemplo, por otros usuarios de GitHub. El portafolio incluye secciones separadas (Acerca de, Proyectos, Habilidades, Experiencia).'    
+                />
+
+                <Project
+                    urlImg={ require ('../img/bot1.png')}
+                    urlImg1={ require('../img/bot2.png') }
+                    urlImg2={ require ('../img/bot3.png') }
+                    skills={skillBot}
+                    linkProject='https://github.com/hidalgoabraham/aj-cok-farming-bot'
+                    projectTitle="Bot Clash of Kings."
+                    projectDescription='Bot de reconocimiento de patrones basado en imagenes, fue desarrollado en python con librerias como OpenCv, OCR y Adb para conectarse a un dispositivo android.'
+
+                />
+
+                <Project
+                    skills={skillTuGruero}
+                    urlImg={ require ('../img/home_tuGruero.png')}
+                    urlImg1={ require('../img/map.png') }
+                    urlImg2={ require ('../img/tuGruero3.png') }
+                    linkProject={tuGruero_description.tuGrueroLink}
+                    tuGruero={true}
+                    projectTitle="Tu Gruero."
+                    projectDescription={tuGruero_description}
+                />
+
+                <Project
+                    skills={skillCambioDolar}
+                    urlImg={ require ('../img/cambioDolar1.png')}
+                    urlImg1={ require('../img/cambioDolar2.png') }
+                    urlImg2={ require ('../img/cambioDolar3.png') }
+                    linkProject='https://github.com/Aj3Aaron/Cambio-dolar'
+                    projectTitle="App mobile multiplataforma."
+                    projectDescription='App multiplataforma desarrollada con React Native para saber en tiempo real el tipo de cambio del Dolar en Venezuela con tasas de distintas entidades.'
+                />
+
             </div>
         </section>
     )

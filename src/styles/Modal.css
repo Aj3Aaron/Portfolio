@@ -56,6 +56,8 @@
 
 .dot{
     background-color: black !important;
+    height: 10px !important;
+    width: 10px !important;
 }
 
 .control-arrow, .carousel-status{
@@ -64,6 +66,11 @@
 
 .carousel-slider{
     height: 100% !important;
+}
+
+.control-dots {
+    margin: 0px !important;
+    
 }
 
 .thumbs-wrapper{
@@ -75,7 +82,7 @@
     border-left: 5px solid #000;
     border-right: 5px solid #000;
     border-bottom: 5px solid #000;
-    height: 35%;
+    height: 100%;
 }
 
 .icon-red{
@@ -108,6 +115,7 @@
      gap: 5px; /* Espacio entre columnas */
      width: 10px;
      height: 2.5%;
+     margin-bottom: 20%;
 }
 
 .skills-modal{

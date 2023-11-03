@@ -17,7 +17,7 @@ Modal.setAppElement('#root');
 
 function Project(props){
 
-    const {urlImg, projectTitle, projectDescription, tuGruero, skills, linkProject, urlImg1, urlImg2, urlImg3} = props;
+    const {urlImg, projectTitle, projectDescription, tuGruero, skills, linkProject, urlImg1, urlImg2} = props;
     const [modalIsOpen, setModalIsOpen] = useState(false);
     const [style, setStyle] = useState('span-component');
 
@@ -101,7 +101,7 @@ function Project(props){
                                         <p className='icon-green'></p>
                                     </div>
                                 </div>
-                                <img className="photo-modal" src={urlImg} alt="Photo" />
+                                <img className="photo-modal" src={urlImg2} alt="Photo" />
                             </div>
                         </Carousel>
                         <div>
